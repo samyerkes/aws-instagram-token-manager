@@ -1,6 +1,6 @@
 'use strict';
 
-const manageToken = require('./manageToken');
+const manageToken = require('./src/manageToken');
 
 module.exports.lambdaHandler = (event, context, callback) => {
   const bucket = process.env.BUCKET;
